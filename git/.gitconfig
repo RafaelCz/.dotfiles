@@ -1,0 +1,12 @@
+[user]
+	name = Rafael Czerwinski
+	email = rafaelcz@gmail.com
+[core]
+	editor = nano
+	excludesfile = /home/rafael/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	up = rebase
+	ci = commit
