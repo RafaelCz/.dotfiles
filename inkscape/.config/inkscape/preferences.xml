@@ -133,8 +133,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="234.286"
+         height="214.286"
          rx="0"
          ry="0" />
       <eventcontext
@@ -408,7 +408,7 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
@@ -418,9 +418,9 @@
        offset="0"
        offsetunits="pt" />
     <group
-       unit="px"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -538,7 +538,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -555,16 +555,54 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="412"
+       h="374"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="468"
+       h="427"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="412"
+       h="374"
+       visible="1"
+       state="2"
+       placement="5"
+       align-to="4" />
     <group
        id="xml" />
     <group
@@ -577,10 +615,31 @@
        ignorenumbers="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="553"
+       h="513"
+       visible="0"
+       placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="23"
+       x="187"
+       y="120"
+       w="905"
+       h="559" />
     <group
        id="gradienteditor" />
     <group
@@ -589,9 +648,22 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="412"
+       h="374"
+       visible="1"
+       state="2"
+       placement="5">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
     </group>
@@ -600,7 +672,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/rafael/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -617,8 +689,9 @@
        enable_preview="1"
        path=""
        ask="1"
-       link="link"
-       scale="optimizeSpeed" />
+       link="embed"
+       scale="auto"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -643,7 +716,19 @@
        id="treeeditor" />
     <group
        id="layers"
-       maxDepth="20" />
+       maxDepth="20"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="412"
+       h="374"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="extensioneditor" />
     <group
@@ -949,15 +1034,24 @@
        id="rendering" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.output.scour.set-precision="5"
+     org.inkscape.output.scour.indent="tab"
+     org.inkscape.output.scour.tab="Options"
+     org.inkscape.output.scour.remove-metadata="1"
+     org.inkscape.output.scour.enable-comment-stripping="1"
+     org.inkscape.output.scour.enable-viewboxing="1"
+     org.inkscape.output.scour.renderer-workaround="1"
+     org.inkscape.output.scour.enable-id-stripping="1"
+     org.inkscape.output.scour.shorten-ids="1" />
   <group
      id="desktop"
-     style="">
+     style="stroke:none;fill:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round;stroke-opacity:1;fill-opacity:1">
     <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
+       width="959"
+       height="744"
+       x="319"
+       y="30"
        fullscreen="0"
        id="geometry"
        maximized="1" />
@@ -979,12 +1073,12 @@
   <group
      id="toolbox"
      icononly="1"
-     secondary="1"
-     small="1">
+     secondary="2"
+     small="2">
     <group
        id="tools"
        icononly="1"
-       small="0" />
+       small="2" />
   </group>
   <group
      id="iconpreview"
