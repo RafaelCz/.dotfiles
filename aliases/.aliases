@@ -1,0 +1,18 @@
+# some more ls aliases
+alias ls='ls -l --color=auto'
+alias ll='ls -alF --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
+
+# use autossh instead of ssh
+alias ssh='autossh'
+
+# global search
+f() {
+    find / -name '$@' 2> /dev/null
+}
+
+# use SSH session with tmux
+s() {
+    autossh -t "$@" 'tmux attach || tmux new'
+}
