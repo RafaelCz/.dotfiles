@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="smyck" _name="Smyck" version="1.0">
+  <author>TM2GSV</author>
+  <description>A GTKSourceView color scheme converted with TM2GSV.</description>
+  <style name="text" foreground="#f8f8f8" background="#1b1b1b"/>
+  <style name="cursor" foreground="#fffa04"/>
+  <style name="selection" background="#1d5766"/>
+  <style name="line-numbers" foreground="#939393" background="#1b1b1b"/>
+  <style name="current-line" background="#323232"/>
+  <style name="current-line-number" background="#323232"/>
+  <style name="draw-spaces" foreground="#454b51"/>
+  <style name="background-pattern" background="#323232"/>
+  <style name="right-margin" background="#1b1b1b"/>
+  <style name="def:comment" foreground="#939393" italic="true"/>
+  <style name="def:shebang" foreground="#939393" italic="true"/>
+  <style name="def:doc-comment" foreground="#939393" italic="true"/>
+  <style name="def:doc-comment-element" foreground="#939393" italic="true"/>
+  <style name="def:constant" foreground="#ebebeb"/>
+  <style name="def:character" foreground="#f6dd6a"/>
+  <style name="def:string" foreground="#f6dd6a"/>
+  <style name="def:special-char" foreground="#ddf2a4"/>
+  <style name="def:number" foreground="#f6dd6a"/>
+  <style name="def:floating-point" foreground="#f6dd6a"/>
+  <style name="def:decimal" foreground="#f6dd6a"/>
+  <style name="def:base-n-integer" foreground="#f6dd6a"/>
+  <style name="def:complex" foreground="#f6dd6a"/>
+  <style name="def:identifier" foreground="#9ee4fe"/>
+  <style name="def:builtin" foreground="#a5eafc"/>
+  <style name="def:statement" foreground="#d1fa72"/>
+  <style name="def:operator" foreground="#ebebeb"/>
+  <style name="def:keyword" foreground="#d1fa72"/>
+  <style name="def:preprocessor" foreground="#faa49c"/>
+  <style name="def:error" background="#472947" foreground="#fd5ff1"/>
+  <style name="def:reserved" foreground="#d1fa72"/>
+  <style name="def:note" foreground="#939393" italic="true"/>
+  <style name="diff:location" background="#0e2231" foreground="#f8f8f8" italic="true"/>
+  <style name="diff:added-line" background="#253b22" foreground="#f8f8f8"/>
+  <style name="diff:removed-line" background="#420e09" foreground="#f8f8f8"/>
+  <style name="diff:changed-line" background="#4a410d" foreground="#f8f8f8"/>
+  <style name="css:keyword" foreground="#c5af75"/>
+  <style name="xml:namespace" foreground="#e18964"/>
+  <style name="c:preprocessor" foreground="#8996a8"/>
+  <style name="ruby:attribute-definition" foreground="#d1fa72"/>
+  <style name="ruby:instance-variable" foreground="#9ee4fe"/>
+  <style name="ruby:class-variable" foreground="#9ee4fe"/>
+  <style name="ruby:special-variable" foreground="#d1fa72"/>
+  <style name="ruby:constant" foreground="#ebebeb"/>
+  <style name="ruby:regex" foreground="#e9c062"/>
+  <style name="ruby:module-handler" foreground="#d1fa72"/>
+  <style name="rubyonrails:attribute-definition" foreground="#d1fa72"/>
+  <style name="rubyonrails:builtin" foreground="#a5eafc"/>
+  <style name="rubyonrails:instance-variable" foreground="#9ee4fe"/>
+  <style name="rubyonrails:class-variable" foreground="#9ee4fe"/>
+  <style name="rubyonrails:special-variable" foreground="#d1fa72"/>
+  <style name="rubyonrails:constant" foreground="#ebebeb"/>
+  <style name="rubyonrails:regex" foreground="#e9c062"/>
+  <style name="rubyonrails:module-handler" foreground="#d1fa72"/>
+  <style name="rubyonrails:module-name" foreground="#9ee4fe"/>
+  <style name="rubyonrails:class-name" foreground="#a5eafc"/>
+  <style name="rubyonrails:class-inherit" foreground="#9ee4fe" italic="true"/>
+  <style name="python:module-handler" foreground="#d1fa72"/>
+  <style name="python:special-variable" foreground="#d1fa72"/>
+  <style name="python:builtin-constant" foreground="#d1fa72"/>
+  <style name="python:builtin-object" foreground="#ebebeb"/>
+  <style name="python:builtin-function" foreground="#ebebeb"/>
+  <style name="perl:type" foreground="#ebebeb"/>
+  <style name="perl:line-directive" foreground="#ebebeb"/>
+  <style name="perl:variable" foreground="#9ee4fe"/>
+  <style name="perl:special-variable" foreground="#d1fa72"/>
+  <style name="perl:include-statement" foreground="#d1fa72"/>
+</style-scheme>
