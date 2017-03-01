@@ -18,3 +18,6 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+#enable passwordstore-extensions
+PASSWORD_STORE_ENABLE_EXTENSIONS=true
