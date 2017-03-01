@@ -8,7 +8,7 @@ set number
 syntax on
 
 " Set color sheme
-color dracula
+color smyck
 
 " Set dark background
 set background=dark
