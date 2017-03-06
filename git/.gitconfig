@@ -1,12 +1,28 @@
 [user]
 	name = Rafael Czerwinski
 	email = rafaelcz@gmail.com
+
 [core]
 	editor = nano
 	excludesfile = /home/rafael/.gitignore_global
+
 [alias]
 	st = status
 	co = checkout
 	br = branch
 	up = rebase
 	ci = commit
+  showtool = "!f() { git difftool $1^ $1; }; f"
+  added = difftool --cached
+
+[diff]
+  tool = icdiff
+
+[difftool]
+  prompt = false
+
+[difftool "icdiff"]
+  cmd = /usr/bin/icdiff --line-numbers $LOCAL $REMOTE
+
+[pager]
+  difftool = true
