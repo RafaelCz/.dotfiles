@@ -22,7 +22,9 @@
   prompt = false
 
 [difftool "icdiff"]
-  cmd = /usr/bin/icdiff --line-numbers $LOCAL $REMOTE
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
 
 [pager]
   difftool = true
+[rerere]
+	enabled = true
