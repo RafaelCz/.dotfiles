@@ -28,3 +28,5 @@
   difftool = true
 [rerere]
 	enabled = true
+[log]
+	decorate = full
