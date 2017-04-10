@@ -5,26 +5,5 @@ set tabsize 2
 set const
 
 ## syntax highlightning
-#include ~/.nano/syntax/coffeescript.nanorc
-#include ~/.nano/syntax/css.nanorc
-#include ~/.nano/syntax/diff.nanorc
-#include ~/.nano/syntax/dot.nanorc
-#include ~/.nano/syntax/git.nanorc
-#include ~/.nano/syntax/html.nanorc
-#include ~/.nano/syntax/java.nanorc
-#include ~/.nano/syntax/javascript.nanorc
-#include ~/.nano/syntax/json.nanorc
-#include ~/.nano/syntax/makefile.nanorc
-#include ~/.nano/syntax/markdown.nanorc
-#include ~/.nano/syntax/nanorc.nanorc
-#include ~/.nano/syntax/nginx.nanorc
-#include ~/.nano/syntax/patch.nanorc
-#include ~/.nano/syntax/perl.nanorc
-#include ~/.nano/syntax/php.nanorc
-#include ~/.nano/syntax/python.nanorc
-#include ~/.nano/syntax/ruby.nanorc
-#include ~/.nano/syntax/shell.nanorc
-#include ~/.nano/syntax/sql.nanorc
-#include ~/.nano/syntax/tex.nanorc
-#include ~/.nano/syntax/vala.nanorc
-#include ~/.nano/syntax/xml.nanorc
+include /usr/share/nano/html.nanorc
+include /usr/share/nano/php.nanorc
