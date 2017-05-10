@@ -1,6 +1,5 @@
 [user]
-	name = Rafael Czerwinski
-	email = rafaelcz@gmail.com
+	useConfigOnly = true
 
 [core]
 	editor = nano
