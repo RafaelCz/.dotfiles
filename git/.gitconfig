@@ -3,7 +3,7 @@
 
 [core]
 	editor = nano
-	excludesfile = /home/rafael/.gitignore_global
+	excludesfile = ~/.gitignore_global
 
 [alias]
 	st = status
@@ -21,7 +21,7 @@
   prompt = false
 
 [difftool "icdiff"]
-  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
+  cmd = ~/.local/bin/icdiff --line-numbers $LOCAL $REMOTE
 
 [pager]
   difftool = true
@@ -29,3 +29,5 @@
 	enabled = true
 [log]
 	decorate = full
+[init]
+	templatedir = ~/.git-templates
