@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>PSD Vector Data Import</_name>
+    <id>org.pernsteiner.inkscape.psd_import</id>
+    <dependency type="executable" location="extensions">psd_import_main.py</dependency>
+    <input>
+        <extension>.psd</extension>
+        <mimetype>image/x-adobe-photoshop</mimetype>
+        <_filetypename>Adobe Photoshop 6.0 and newer (*.psd)</_filetypename>
+        <_filetypetooltip>Open files saved with Adobe Photoshop 6.0 or
+        newer</_filetypetooltip>
+    </input>
+    <script>
+        <command reldir="extensions" interpreter="python">psd_import_main.py</command>
+    </script>
+</inkscape-extension>
+
