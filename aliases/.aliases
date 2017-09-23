@@ -1,11 +1,9 @@
 # some more ls aliases
-# alias ls='ls -l --color=auto'
-# alias ll='ls -alF --color=auto'
-# alias la='ls -A --color=auto'
-# alias l='ls -CF --color=auto'
+alias ls='ls --color=tty --group-directories-first'
+
 
 # use autossh instead of ssh
-alias ssh='autossh'
+# alias ssh='autossh'
 
 # global search
 f() {
@@ -38,3 +36,6 @@ extract () {
 		echo "'$1' is not a valid file!"
 	fi
 }
+
+# show all open ports
+alias ports='netstat -tulanp'
