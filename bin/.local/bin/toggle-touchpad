@@ -1,0 +1,15 @@
+#!/bin/bash
+
+device='SynPS/2 Synaptics TouchPad'
+state=$(xinput list-props "$device" | awk '/Device Enabled/{print $4}')
+
+case $state in
+    1) #Touchpad is currently enabled
+        notify-send -i input-touchpad "Touchpad" "deaktivert" 
+        xinput --disable "$device"
+    ;;
+    0) #Touchpad is currently disabled
+        notify-send -i input-touchpad "Touchpad" "aktiviert"
+        xinput --enable "$device"
+    ;;
+esac
