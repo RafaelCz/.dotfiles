@@ -39,3 +39,6 @@ extract () {
 
 # show all open ports
 alias ports='netstat -tulanp'
+
+# ignore .git folders in tree
+alias tree='tree -I ".git"'
