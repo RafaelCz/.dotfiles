@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git pass docker extract npm rsync sudo)
+plugins=(git pass docker extract npm rsync sudo rust cargo)
 
 source $ZSH/oh-my-zsh.sh
 
