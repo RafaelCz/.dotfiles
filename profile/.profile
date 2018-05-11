@@ -21,3 +21,5 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 #enable passwordstore-extensions
 PASSWORD_STORE_ENABLE_EXTENSIONS=true
+
+export PATH="$HOME/.cargo/bin:$PATH"
