@@ -72,3 +72,5 @@ set mouse=a
 " Console-based dialogs for simple queries
 " set guioptions+=c
 
+" move viminfo into config-folder
+set viminfo+=n~/.vim/viminfo
