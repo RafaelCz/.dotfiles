@@ -8,7 +8,7 @@ set number
 syntax on
 
 " Set color sheme
-color smyck
+color gruvbox
 
 " Set dark background
 set background=dark
@@ -62,13 +62,13 @@ set mouse=a
 
 " gVim specific settings
 " Remove the toolbar and menubar
-set guioptions-=T 
-set guioptions-=m
+" set guioptions-=T
+" set guioptions-=m
 
 " Remove right- and left-hand scrollbars
-set guioptions-=r    
-set guioptions-=L
+" set guioptions-=r
+" set guioptions-=L
 
 " Console-based dialogs for simple queries
-set guioptions+=c
+" set guioptions+=c
 
