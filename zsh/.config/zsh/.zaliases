@@ -1,0 +1,64 @@
+# make navigation less painfull
+alias cd..='cd ..'
+alias -- -='cd -'
+alias -g ...='../..'
+alias -g ....='../../../'
+
+# make ls readable
+alias ls='ls --color=tty --group-directories-first'
+alias l='ls -lAFh' #size,show type,human readable
+
+# shortcuts for common apps
+alias g=git
+alias ff=firefox
+
+alias grep='grep --color'
+alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
+
+# use colordiff instead of diff
+alias diff='colordiff'
+
+# disc free in human readable format
+alias df='df -h'
+
+# tail should follow by default
+alias t='tail -f'
+
+# show all open ports
+alias ports='netstat -tulanp'
+
+# ignore .git folders in tree
+alias tree='tree -I ".git"'
+
+# command line head / tail shortcuts
+alias -g H='| head'
+alias -g T='| tail'
+alias -g G='| grep'
+alias -g L="| less"
+alias -g M="| most"
+
+# prompt before overwrite
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# open following files/domains in a browser
+if [[ -n "$BROWSER" ]]; then
+	_browser_fts=(htm html de org net com at cx nl se dk es it)
+	for ft in $_browser_fts; do alias -s $ft=$BROWSER; done
+fi
+
+# read documents
+alias -s pdf=evince
+alias -s gs=evince
+
+# list whats inside packed file
+alias -s zip='unzip -l'
+alias -s rar='unrar l'
+alias -s tar='tar tf'
+alias -s tar.gz='echo '
+alias -s ace='unace l'
+
+# what's my external ip adress?
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias myip6='dig +short -6 myip.opendns.com aaaa @resolver1.ipv6-sandbox.opendns.com'
