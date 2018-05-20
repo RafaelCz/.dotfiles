@@ -9,7 +9,6 @@
 ~h
 # Befehlszeile Geschichte (neueste bis älteste):
 :q
-:set viminfo+=n~/.vim/viminfo
 
 # Suchausdruck Geschichte (neueste bis älteste):
 
@@ -22,16 +21,12 @@
 # Register:
 
 # Datei-Marken:
-'0  55  0  ~/GitHub/PlayInMpv/src/modules/main.js
+'0  1  0  /tmp/zshTRNmrD
 
 # Geschichte (neueste zuerst):
--'  55  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  1  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  55  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  1  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  55  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  1  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  55  0  ~/GitHub/PlayInMpv/src/modules/main.js
--'  1  0  ~/GitHub/PlayInMpv/src/modules/main.js
+-'  1  0  /tmp/zshTRNmrD
 
 # Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> /tmp/zshTRNmrD
+	"	1	0
