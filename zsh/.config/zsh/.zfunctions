@@ -19,3 +19,10 @@ extract () {
 		echo "'$1' is not a valid file!"
 	fi
 }
+
+# Start an HTTP server from a directory, optionally specifying the port
+server() {
+	local port="${1:-8000}"
+	firefox 'http://localhost:${port}/' &
+	python3 -m http.server ${port}
+}
