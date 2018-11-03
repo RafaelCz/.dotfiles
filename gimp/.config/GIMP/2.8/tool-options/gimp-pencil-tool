@@ -1,0 +1,9 @@
+# GIMP gimp-pencil-tool options
+
+(background (color-rgb 0.000000 0.000000 0.000000))
+(brush "1. Pixel")
+(dynamics "Pressure Opacity")
+(gradient "Flare Glow Radial 4")
+(palette "Default")
+
+# end of gimp-pencil-tool options

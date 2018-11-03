@@ -1,0 +1,13 @@
+# GIMP user context
+
+(tool "gimp-move-tool")
+(paint-info "gimp-paintbrush")
+(background (color-rgb 0.000000 0.000000 0.000000))
+(brush "1. Pixel")
+(dynamics "Pressure Opacity")
+(pattern "Zwischenablage")
+(gradient "Flare Glow Radial 4")
+(palette "Default")
+(font "Sans")
+
+# end of user context

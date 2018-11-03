@@ -1,0 +1,11 @@
+# GIMP gimp-paintbrush-tool options
+
+(foreground (color-rgb 0.937255 0.937255 0.937255))
+(background (color-rgb 0.870588 0.337255 0.290196))
+(brush "1. Pixel")
+(dynamics "Pressure Opacity")
+(gradient "Flare Glow Radial 4")
+(palette "Default")
+(brush-size 1.000000)
+
+# end of gimp-paintbrush-tool options

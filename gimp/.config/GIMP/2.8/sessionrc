@@ -1,0 +1,132 @@
+# GIMP sessionrc
+# 
+# This file takes session-specific info (that is info, you want to keep
+# between two GIMP sessions).  You are not supposed to edit it manually, but
+# of course you can do.  The sessionrc will be entirely rewritten every time
+# you quit GIMP.  If this file isn't found, defaults are used.
+
+(session-info "toplevel"
+    (factory-entry "gimp-empty-image-window")
+    (position 275 83)
+    (size 620 200))
+(session-info "toplevel"
+    (factory-entry "gimp-single-image-window")
+    (position 0 30)
+    (size 1366 705)
+    (open-on-exit)
+    (aux-info
+        (left-docks-width "68")
+        (right-docks-width "265")
+        (maximized "yes"))
+    (gimp-toolbox
+        (side left))
+    (gimp-dock
+        (side right)
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (locked)
+                (tab-style icon)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-brush-grid"
+                (locked)
+                (tab-style icon)
+                (preview-size 24)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-gradient-list"
+                (locked)
+                (tab-style icon)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-pattern-grid"
+                (locked)
+                (tab-style icon)
+                (preview-size 24)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-selection-editor"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))
+        (book
+            (position 234)
+            (current-page 0)
+            (dockable "gimp-layer-list"
+                (locked)
+                (tab-style icon)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-channel-list"
+                (locked)
+                (tab-style icon)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-histogram-editor"
+                (locked)
+                (tab-style icon)))
+        (book
+            (position 526)
+            (current-page 0)
+            (dockable "gimp-document-list"
+                (locked)
+                (tab-style icon)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-image-list"
+                (locked)
+                (tab-style icon)
+                (aux-info
+                    (show-button-bar "true"))))))
+(session-info "toplevel"
+    (factory-entry "gimp-file-open-dialog")
+    (position 262 81)
+    (size 720 540))
+(session-info "toplevel"
+    (factory-entry "gimp-shear-tool-dialog")
+    (position 464 463))
+(session-info "toplevel"
+    (factory-entry "gimp-scale-tool-dialog")
+    (position 495 300))
+(session-info "toplevel"
+    (factory-entry "gimp-file-save-dialog")
+    (position 51 30)
+    (size 720 540))
+(session-info "toplevel"
+    (factory-entry "gimp-file-export-dialog")
+    (position 51 30)
+    (size 720 540))
+(session-info "toplevel"
+    (factory-entry "gimp-toolbox-color-dialog")
+    (position 51 0))
+(session-info "toplevel"
+    (factory-entry "gimp-preferences-dialog")
+    (position 468 59))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 250 72))
+(session-info "toplevel"
+    (factory-entry "gimp-rotate-tool-dialog")
+    (position 458 149))
+(session-info "toplevel"
+    (factory-entry "gimp-input-devices-dialog")
+    (position 80 24))
+(session-info "toplevel"
+    (factory-entry "gimp-color-balance-tool-dialog")
+    (position 244 0))
+(session-info "toplevel"
+    (factory-entry "gimp-brightness-contrast-tool-dialog")
+    (position 887 47))
+(session-info "toplevel"
+    (factory-entry "gimp-keyboard-shortcuts-dialog")
+    (position 407 102)
+    (size 381 633))
+
+(hide-docks no)
+(single-window-mode yes)
+(last-tip-shown 0)
+
+# end of sessionrc

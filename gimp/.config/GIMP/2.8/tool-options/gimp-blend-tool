@@ -1,0 +1,7 @@
+# GIMP gimp-blend-tool options
+
+(foreground (color-rgb 0.090196 0.082353 0.082353))
+(background (color-rgb 0.000000 0.000000 0.000000))
+(gradient "Flare Glow Radial 4")
+
+# end of gimp-blend-tool options

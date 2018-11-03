@@ -1,0 +1,9 @@
+# GIMP gimp-vector-tool options
+
+(brush "Zwischenablage")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(gradient "VG nach HG (harte Kante)")
+(palette "Default")
+
+# end of gimp-vector-tool options
