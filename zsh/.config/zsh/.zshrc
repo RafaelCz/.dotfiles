@@ -23,9 +23,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:
 autoload -Uz compinit
 compinit
 
-# enable popup notifications in Pantheon-Terminal
-builtin . /usr/share/pantheon-terminal/enable-zsh-completion-notifications || builtin true
-
 # set personal aliases & functions
 source $ZDOTDIR/.zaliases
 source $ZDOTDIR/.zfunctions
@@ -33,6 +30,9 @@ source $ZDOTDIR/.zfunctions
 # load fzf
 [[ $- == *i* ]] && source $XDG_DATA_HOME/fzf/shell/completion.zsh 2> /dev/null
 source $XDG_DATA_HOME/fzf/shell/key-bindings.zsh
+
+# enable popup notifications in Pantheon-Terminal
+builtin . /usr/share/io.elementary.terminal/enable-zsh-completion-notifications || builtin true
 
 # load pure prompt
 PURE_PROMPT_SYMBOL='»'

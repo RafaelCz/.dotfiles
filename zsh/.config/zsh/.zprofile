@@ -43,14 +43,14 @@ export SASS_LIBSASS_PATH=$HOME/.local/lib
 
 # set (f)path
 path=(
-	$HOME/.local/bin 
+	$HOME/.local/bin
 	$XDG_DATA_HOME/fzf/bin
-	$CARGO_HOME/bin 
+	$CARGO_HOME/bin
 	$path
 )
 
 fpath=(
-	$ZDOTDIR/functions 
+	$ZDOTDIR/functions
 	$fpath
 )
 
